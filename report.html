@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{doc_title}</title>
+    <style>
+        table {{
+            width: 100%;
+        }}
+
+        table,
+        th,
+        td {{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: left;
+            vertical-align: top;
+            word-wrap: break-word;
+        }}
+
+        table th {{
+            background-color: aquamarine;
+        }}
+    </style>
+</head>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            {th}
+        </tr>
+        <tr>
+            {td}
+        </tr>
+    </table>
+</body>
+
+</html>
